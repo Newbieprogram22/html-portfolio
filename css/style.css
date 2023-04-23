@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+    /* font-size: 100%; */
+}
+
+hr {
+    border-style: dotted;
+    border-color: #99c5c5;
+    border-width: 6px;
+    border-bottom: 0;
+    width: 10%;
+    margin: 100px auto 95px auto;
+}
+
+h1 {
+    /* calculation for font percentage {[100*(pixel value)]/16} */
+    /* 16px = 100% = 1em */
+    /* rem is root em(does not effected by any other font) */
+    font-size: 6.25rem;
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-family: 'Sacramento', cursive;
+    color: #66bfbf;
+    /* line-height: 2; */
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #66bfbf;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999e;
+}
+
+
+p {
+    margin: 0;
+    line-height: 2;
+}
+
+.bottomcloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.topcloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+    /* position: relative;
+    left: 200px;
+    margin-top: 30px; */
+}
+
+
+/* div{
+    background-color: #C0EEE4;
+    height: 200px;
+    width: 200px;
+    border:solid;
+    {circle short cut}
+    border-width: 0px 10px 20px 30px;
+} */
+
+
+
+.top {
+    background-color: #eaf6f6;
+    position: relative;
+    padding-top: 100px;
+    /* background-image: url("brian-breeden-TMQvmvkomg4-unsplash.jpg"); */
+    /* background-size: 100%; */
+    /* width: 811px; */
+    /* height: 453px; */
+    /* background-repeat: no-repeat; */
+    /* height: 200px;
+    width: 200px; */
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.para1 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+a {
+    color: #11999e;
+}
+
+.pro {
+    text-decoration: underline;
+    /* background-color: turquoise; */
+    /* visibility: hidden; */
+    /* display: none; */
+}
+
+.profile {
+    /* border-radius: 100%; */
+    height: 30%;
+    width: 30%;
+    margin: 10px auto;
+}
+
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill1 {
+    border-radius: 100%;
+    height: 25%;
+    width: 25%;
+    margin-right: 30px;
+    float: left;
+}
+
+/* .skill1-description {
+    clear: left;
+} */
+
+.skill2 {
+    border-radius: 100%;
+    height: 25%;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+/* .skill2-description {
+    clear: right;
+} */
+
+.contact-me {
+    line-height: 2;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.footer-link {
+margin: 10px;
+}
+
+.bottom-container {
+    /* margin: 30px auto 0 auto; */
+    line-height: 3;
+    background-color: #66bfbf;
+    /* padding-top: 20px; */
+    padding-bottom: 30px;
+}
